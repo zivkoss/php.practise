@@ -5,7 +5,15 @@ $broj_2 = 5;
 
 $rezultat = $broj_1 - $broj_2;
 
-echo "$broj_1 minus $broj_2, jednako je: " . $rezultat;
+$text1 = "Hello";
+$text2 = "World!";
+$spoj = $text1 . $broj_2;
+
+echo $spoj . "<span style='color:red'>text neki</span>";
+// echo "$broj_1 minus $broj_2, jednako je: " . $rezultat;
+echo "<br>";
+
+echo "<div style='background: red'>$broj_1</div>";
 
 
 
