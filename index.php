@@ -7,7 +7,17 @@ $tacno_netacno = false;
 
 var_dump($text);
 
+echo "<br>";
 
+ var_dump($celi_broj);
+
+ echo "<br>";
+
+ var_dump($float_broj);
+
+ echo "<br>";
+
+ var_dump($tacno_netacno);
 
 
 
