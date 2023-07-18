@@ -18,10 +18,10 @@
 
     <form method="GET">
         <select name="brand">
-            <option value="ALL">All</option>
-            <option value="BMW">BMW</option>
-            <option value="Audi">Audi</option>
-            <option value="Mercedes">Mercedes</option>
+            <option value="ALL" <?php echo ($_GET['brand'] ?? '') === 'ALL' ? 'selected' : ''; ?>>All</option>
+            <option value="BMW" <?php echo ($_GET['brand'] ?? '') === 'BMW' ? 'selected' : ''; ?>>BMW</option>
+            <option value="Audi" <?php echo ($_GET['brand'] ?? '') === 'Audi' ? 'selected' : ''; ?>>Audi</option>
+            <option value="Mercedes" <?php echo ($_GET['brand'] ?? '') === 'Mercedes' ? 'selected' : ''; ?>>Mercedes</option>
         </select>
 
         <button type="submit">Search</button>
