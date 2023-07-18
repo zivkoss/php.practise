@@ -1,12 +1,42 @@
 <?php
 
-$gradovi = [
+$drzavaGradovi = [
     "Srbija" => ["Beograd", "Novi Sad", "Nis"],
     "Hrvatska" => ["Zagreb", "Split", "Rijeka"],
     "Crna Gora" => ["Podgorica", "Niksic", "Budva"]
 ];
 
-echo $gradovi["Srbija"][0];
+foreach($drzavaGradovi as $drzava => $gradovi) {
+    echo "<b>$drzava</b> <br>";
+
+    foreach($gradovi as $grad) {
+        echo "$grad <br>";
+    }
+}
+
+// $broj = 1;
+
+// while ($broj <= 5) {
+//     echo "Broj: $broj<br>";
+//     $broj++;
+// }
+
+// // While
+
+// for($broj = 1; $broj <= 5; $broj++) {
+//     echo "Broj: $broj<br>";
+// }
+
+
+
+
+// $gradovi = [
+//     "Srbija" => ["Beograd", "Novi Sad", "Nis"],
+//     "Hrvatska" => ["Zagreb", "Split", "Rijeka"],
+//     "Crna Gora" => ["Podgorica", "Niksic", "Budva"]
+// ];
+
+// echo $gradovi["Srbija"][0];
 
 
 // USLOVI
