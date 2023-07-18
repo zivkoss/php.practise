@@ -1,12 +1,56 @@
 <?php
 
-$tekst = "danas cemo da ucimo php";
 
-$sadrzi = str_contains($tekst, "ucimo");
+// USLOVI
 
-var_dump($sadrzi);
 
-echo "<div style='background: red'>$tekst</div>";
+
+$broj = 5;
+
+$voce = match($broj) {
+    1 => "Jabuka",
+    2 => "Banana",
+    3 => "Kruska",
+    4 => "Jagoda",
+    default => "Nema voca"
+};
+
+echo $voce;
+
+// $broj = 51;
+
+// if($broj >= 10 && $broj <= 50) {
+//    echo "Broj je izmedju 10 i 50";   
+// } else {
+//     echo "Broj nije izmedju 10 i 50";
+// }
+
+//****************************** 
+// $broj = 11;
+
+// if($broj == 10) {
+//    echo "Broj je jednak 10";   
+// } else {
+//     echo "Broj nije jednak 10";
+// }
+
+
+//***************************************
+// $email = " rerrel lsadlmlsadl.com ";
+
+// $novi = trim($email);
+
+// var_dump($novi);
+
+//****************************************
+
+
+
+// $sadrzi = str_contains($email, "@");
+
+// var_dump($sadrzi);
+
+// echo "<div style='background: red'>@email</div>";
 //********************************************************************
 // $tekst = "OvO JE TroL NeKI";
 
