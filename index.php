@@ -1,12 +1,22 @@
 <?php
 
-$tekst = "OvO JE TroL NeKI";
+$tekst = "danas cemo da ucimo php";
 
-$mala_slova = strtolower($tekst); 
-// $mala_slova = strtoupper($tekst); 
+$sadrzi = str_contains($tekst, "ucimo");
 
-echo $mala_slova;
+var_dump($sadrzi);
 
+echo "<div style='background: red'>$tekst</div>";
+//********************************************************************
+// $tekst = "OvO JE TroL NeKI";
+
+// $mala_slova = strtolower($tekst); 
+// // $mala_slova = strtoupper($tekst); 
+
+// echo $mala_slova;
+
+
+//********************************************************************************* 
 // $tekst = "Lorem ipsum dolor sit amet, omg consectetur adipiscing elit, sed do eiusmod lol tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
 
 // echo $tekst . "<br><br>";
