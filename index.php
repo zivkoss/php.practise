@@ -1,19 +1,86 @@
-<?php
+<html>
+    <head>
+        <title>Auta</title>
+    </head>
+    <body>
+    <?php
 
-$drzavaGradovi = [
-    "Srbija" => ["Beograd", "Novi Sad", "Nis"],
-    "Hrvatska" => ["Zagreb", "Split", "Rijeka"],
-    "Crna Gora" => ["Podgorica", "Niksic", "Budva"]
+$cars = [
+    'BMV' => ['Serija 3', 'Serija 5', 'X3', 'X5'],
+    'Audi' => ['A4', 'A6', 'Q5', 'Q7'],
+    'Mercedes' => ['C-Class', 'E-class', 'GLC', 'GLE']
 ];
 
-foreach($drzavaGradovi as $drzava => $gradovi) {
-    echo "<b>$drzava</b> <br>";
+foreach($cars as $brand => $models) {
+    echo "<h2>$brand</h2>";
 
-    foreach($gradovi as $grad) {
-        echo "$grad <br>";
+    foreach($models as $model) {
+        echo "<p>$model</p>";
     }
 }
+?>
+    </body>
+</html>
 
+
+
+//*************************************************************************** 
+// function prosecna_ocena($ocene) {
+//     $broj_ocena = count($ocene);
+//     $zbir = 0;
+
+//     foreach($ocene as $ocena) {
+//         $zbir += $ocena;
+//     }
+
+//     $prosek = $zbir / $broj_ocena;
+
+//     return $prosek;
+// }
+
+// $ocene1 = [5, 4, 3, 5, 4];
+
+// echo prosecna_ocena($ocene1) . "<br>";
+
+// $ocene2 = [5, 4, 3, 5, 4, 4, 2];
+
+// echo prosecna_ocena($ocene2) . "<br>";
+
+// funkcije
+
+// $saberi = fn($broj1, $broj2) => $broj1 + $broj2;
+
+// echo $saberi(5, 8);
+
+// ***************************************
+
+// function saberi($broj1, $broj2) {
+//     // $zbir = $broj1 + $broj2;
+//     return $broj1 + $broj2;
+// }
+
+// $a = 5;
+// $b = 7;
+
+// $zbir_dva_broja = saberi($a, $b);
+
+// echo $zbir_dva_broja;
+
+// ***********************************************************************
+// $drzavaGradovi = [
+//     "Srbija" => ["Beograd", "Novi Sad", "Nis"],
+//     "Hrvatska" => ["Zagreb", "Split", "Rijeka"],
+//     "Crna Gora" => ["Podgorica", "Niksic", "Budva"]
+// ];
+
+// foreach($drzavaGradovi as $drzava => $gradovi) {
+//     echo "<b>$drzava</b> <br>";
+
+//     foreach($gradovi as $grad) {
+//         echo "$grad <br>";
+//     }
+// }
+//********************************************************* 
 // $broj = 1;
 
 // while ($broj <= 5) {
