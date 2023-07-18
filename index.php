@@ -1,20 +1,100 @@
 <?php
 
-$broj_1 = 11;
-$broj_2 = 5;
+$tekst = "OvO JE TroL NeKI";
 
-$rezultat = $broj_1 - $broj_2;
+$mala_slova = strtolower($tekst); 
+// $mala_slova = strtoupper($tekst); 
 
-$text1 = "Hello";
-$text2 = "World!";
-$spoj = $text1 . $broj_2;
+echo $mala_slova;
 
-echo $spoj . "<span style='color:red'>text neki</span>";
-// echo "$broj_1 minus $broj_2, jednako je: " . $rezultat;
-echo "<br>";
+// $tekst = "Lorem ipsum dolor sit amet, omg consectetur adipiscing elit, sed do eiusmod lol tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.";
 
-echo "<div style='background: red'>$broj_1</div>";
+// echo $tekst . "<br><br>";
 
+// $preciscen_tekst = str_replace("omg", "X", $tekst);
+
+// echo $preciscen_tekst;
+
+//******************************************** */
+
+// $omg_pos = strpos($tekst, "omg");
+// $los_pos = strpos($tekst, "lol");
+
+// $finish_pos = $lol_pos - $omg_pos;
+
+// $preview = substr($tekst, $omg_pos, $finish_pos);
+
+// echo $preview . "...";
+
+//***********************************************************************
+// $tekst = "Hello World";
+
+// echo $tekst;
+
+// echo "<br>";
+
+// $duzina = strlen($tekst);
+
+// echo "duzina stringa: " . $duzina;
+
+// echo "<br>";
+
+// $pozicija = strpos($tekst, "World");
+
+// var_dump($pozicija);
+
+// echo $pozicija;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ******************************************************
+// $broj_1 = 11;
+// $broj_2 = 5;
+
+// $rezultat = $broj_1 - $broj_2;
+
+// $text1 = "Hello";
+// $text2 = "World!";
+// $spoj = $text1 . $broj_2;
+
+// echo $spoj . "<span style='color:red'>text neki</span>" . $broj_1;
+// // echo "$broj_1 minus $broj_2, jednako je: " . $rezultat;
+// echo "<br>";
+
+// echo "<div style='background: red'>$broj_1</div>";
+
+// *******************************************************************
 
 
 
@@ -168,7 +248,7 @@ echo "<div style='background: red'>$broj_1</div>";
 
 
 
-
+/*
 
 // echo "Hello World!";
 
@@ -179,3 +259,5 @@ echo "<div style='background: red'>$broj_1</div>";
 // $bilosta = 10;
 
 // echo $bilosta;
+
+*/;
