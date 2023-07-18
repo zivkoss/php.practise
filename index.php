@@ -6,6 +6,16 @@
 
 <body>
 
+    <?php
+    
+    $selectedBrand = '';
+
+    if (isset($_GET['brand'])) {
+        $selectedBrand = $_GET['brand'];
+    }
+
+    ?>
+
     <form method="GET">
         <select name="brand">
             <option value="ALL">All</option>
@@ -18,12 +28,6 @@
     </form>
 
     <?php
-
-    $selectedBrand = '';
-
-    if (isset($_GET['brand'])) {
-        $selectedBrand = $_GET['brand'];
-    }
 
     $cars = [
         'BMW' => ['Serija 3', 'Serija 5', 'X3', 'X5'],
