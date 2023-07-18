@@ -1,21 +1,28 @@
 <?php
 
+$gradovi = [
+    "Srbija" => ["Beograd", "Novi Sad", "Nis"],
+    "Hrvatska" => ["Zagreb", "Split", "Rijeka"],
+    "Crna Gora" => ["Podgorica", "Niksic", "Budva"]
+];
+
+echo $gradovi["Srbija"][0];
+
 
 // USLOVI
 
+//******************************************************
+// $broj = 5;
 
+// $voce = match($broj) {
+//     1 => "Jabuka",
+//     2 => "Banana",
+//     3 => "Kruska",
+//     4 => "Jagoda",
+//     default => "Nema voca"
+// };
 
-$broj = 5;
-
-$voce = match($broj) {
-    1 => "Jabuka",
-    2 => "Banana",
-    3 => "Kruska",
-    4 => "Jagoda",
-    default => "Nema voca"
-};
-
-echo $voce;
+// echo $voce;
 
 // $broj = 51;
 
